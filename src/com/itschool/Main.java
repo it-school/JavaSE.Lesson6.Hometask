@@ -1,12 +1,12 @@
 package com.itschool;
 
-import java.util.Arrays;
 import java.util.Random;
 
 // Реализовать методы для обмена валют
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         task1();
     }
 
