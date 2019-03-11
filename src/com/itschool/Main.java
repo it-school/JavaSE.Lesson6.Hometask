@@ -7,6 +7,11 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
+        task1();
+    }
+
+    private static void task1()
+    {
         System.out.println(new Exchanger().Hrn2USD(2000));
         System.out.println(new Exchanger().Hrn2USD(2000, 26.15));
         System.out.println(new Exchanger(26.1).Hrn2USD(2000));
